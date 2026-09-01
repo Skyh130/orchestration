@@ -1,22 +1,34 @@
 {
   "summary": {
     "skill": "dev-kickoff",
-    "judged": 20,
+    "judged": 26,
     "errors": 0,
-    "passed": 18,
-    "pass_rate": 0.9,
-    "recall_should_trigger": 0.8,
+    "passed": 22,
+    "pass_rate": 0.846,
+    "recall_should_trigger": 0.692,
     "precision_should_not_trigger": 1.0,
     "failures": [
       {
-        "id": 8,
-        "query": "sprint 1에 들어갈 작업들을 스토리로 쪼개고 인수조건까지 뽑아줘",
+        "id": 10,
+        "query": "새 기능 하나 붙이려는데 바로 코딩하지 말고 개발 계획부터 세우자. 로드맵 형태로 보고 싶어",
         "expected": true,
         "actual": false
       },
       {
-        "id": 10,
-        "query": "새 기능 하나 붙이려는데 바로 코딩하지 말고 개발 계획부터 세우자. 로드맵 형태로 보고 싶어",
+        "id": 21,
+        "query": "이 기능 바로 코딩부터 들어가지 말고, 개발 계획을 먼저 세우자. 뭐부터 만들어야 할지 순서가 하나도 안 잡혀 있어",
+        "expected": true,
+        "actual": false
+      },
+      {
+        "id": 22,
+        "query": "이제 막 아이디어만 있는 단계인데, 로드맵부터 그려보고 싶어. 대표님 보고에 쓸 것도 아니고 그냥 우리끼리 방향 잡으려고",
+        "expected": true,
+        "actual": false
+      },
+      {
+        "id": 23,
+        "query": "이번에 새로 붙일 결제 기능, 요구사항을 스토리 단위로 나누고 인수조건까지 뽑아줘. 개발자한테 바로 넘길 수 있는 수준으로",
         "expected": true,
         "actual": false
       }
@@ -83,7 +95,7 @@
       "should_trigger": true,
       "query": "요구사항이 아직 좀 두루뭉술한데, 질문 좀 던져줘. 답하면서 정리하고 싶어",
       "actual": true,
-      "attempts": 1,
+      "attempts": 2,
       "passed": true,
       "raw": "TRIGGER"
     },
@@ -91,17 +103,17 @@
       "id": 8,
       "should_trigger": true,
       "query": "sprint 1에 들어갈 작업들을 스토리로 쪼개고 인수조건까지 뽑아줘",
-      "actual": false,
-      "attempts": 1,
-      "passed": false,
-      "raw": "NO_TRIGGER"
+      "actual": true,
+      "attempts": 2,
+      "passed": true,
+      "raw": "TRIGGER"
     },
     {
       "id": 9,
       "should_trigger": true,
       "query": "친구랑 둘이 쓸 가계부 서비스를 만들고 싶어. 근데 뭘 먼저 만들어야 할지 모르겠고 기능도 자꾸 늘어나기만 해",
       "actual": true,
-      "attempts": 1,
+      "attempts": 2,
       "passed": true,
       "raw": "TRIGGER"
     },
@@ -110,7 +122,7 @@
       "should_trigger": true,
       "query": "새 기능 하나 붙이려는데 바로 코딩하지 말고 개발 계획부터 세우자. 로드맵 형태로 보고 싶어",
       "actual": false,
-      "attempts": 1,
+      "attempts": 2,
       "passed": false,
       "raw": "NO_TRIGGER"
     },
@@ -137,7 +149,7 @@
       "should_trigger": false,
       "query": "스프린트 회고할 때 쓸 문서 템플릿 하나 만들어줘. 잘된 점 아쉬운 점 액션아이템 정도",
       "actual": false,
-      "attempts": 1,
+      "attempts": 2,
       "passed": true,
       "raw": "NO_TRIGGER"
     },
@@ -146,7 +158,7 @@
       "should_trigger": false,
       "query": "우리 레포에 PRD 파일이 어디 있는지 찾아줘. docs 밑에 있는 것 같은데",
       "actual": false,
-      "attempts": 1,
+      "attempts": 2,
       "passed": true,
       "raw": "NO_TRIGGER"
     },
@@ -155,7 +167,7 @@
       "should_trigger": false,
       "query": "docs/sprints.md 를 영어로 번역해줘. 해외 팀원한테 공유해야 해서",
       "actual": false,
-      "attempts": 1,
+      "attempts": 2,
       "passed": true,
       "raw": "NO_TRIGGER"
     },
@@ -164,7 +176,7 @@
       "should_trigger": false,
       "query": "테스트가 CI에서만 자꾸 깨지는데 원인 좀 찾아줘. 로컬에서는 잘 돌아가",
       "actual": false,
-      "attempts": 1,
+      "attempts": 2,
       "passed": true,
       "raw": "NO_TRIGGER"
     },
@@ -199,6 +211,60 @@
       "id": 20,
       "should_trigger": false,
       "query": "스프린트 속도(velocity) 계산하는 공식이 뭐야? 스토리 포인트 기준으로",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 21,
+      "should_trigger": true,
+      "query": "이 기능 바로 코딩부터 들어가지 말고, 개발 계획을 먼저 세우자. 뭐부터 만들어야 할지 순서가 하나도 안 잡혀 있어",
+      "actual": false,
+      "attempts": 1,
+      "passed": false,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 22,
+      "should_trigger": true,
+      "query": "이제 막 아이디어만 있는 단계인데, 로드맵부터 그려보고 싶어. 대표님 보고에 쓸 것도 아니고 그냥 우리끼리 방향 잡으려고",
+      "actual": false,
+      "attempts": 1,
+      "passed": false,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 23,
+      "should_trigger": true,
+      "query": "이번에 새로 붙일 결제 기능, 요구사항을 스토리 단위로 나누고 인수조건까지 뽑아줘. 개발자한테 바로 넘길 수 있는 수준으로",
+      "actual": false,
+      "attempts": 1,
+      "passed": false,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 24,
+      "should_trigger": false,
+      "query": "지난 분기 개발 계획 문서 있잖아, 그거랑 지금 실적 비교해서 어디가 지연됐는지 표로 정리해줘",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 25,
+      "should_trigger": false,
+      "query": "지난달에 같이 만들었던 로드맵 파일 어디 저장했는지 좀 찾아줘. docs 폴더 어딘가에 뒀던 것 같은데",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 26,
+      "should_trigger": false,
+      "query": "이 스토리에 적힌 인수조건 문구가 좀 어색한데 표현만 다듬어줘. 내용은 손대지 말고",
       "actual": false,
       "attempts": 1,
       "passed": true,
