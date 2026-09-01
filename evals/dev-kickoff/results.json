@@ -1,0 +1,208 @@
+{
+  "summary": {
+    "skill": "dev-kickoff",
+    "judged": 20,
+    "errors": 0,
+    "passed": 18,
+    "pass_rate": 0.9,
+    "recall_should_trigger": 0.8,
+    "precision_should_not_trigger": 1.0,
+    "failures": [
+      {
+        "id": 8,
+        "query": "sprint 1에 들어갈 작업들을 스토리로 쪼개고 인수조건까지 뽑아줘",
+        "expected": true,
+        "actual": false
+      },
+      {
+        "id": 10,
+        "query": "새 기능 하나 붙이려는데 바로 코딩하지 말고 개발 계획부터 세우자. 로드맵 형태로 보고 싶어",
+        "expected": true,
+        "actual": false
+      }
+    ],
+    "error_ids": []
+  },
+  "results": [
+    {
+      "id": 1,
+      "should_trigger": true,
+      "query": "회사에서 쓰는 재고 관리 툴을 하나 만들고 싶은데 뭐부터 해야 할지 모르겠어. 지금은 엑셀로 하고 있는데 사람이 늘면서 한계가 왔거든",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 2,
+      "should_trigger": true,
+      "query": "PRD 좀 같이 써줄래? 아이디어는 머릿속에 있는데 글로 정리가 안 돼",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 3,
+      "should_trigger": true,
+      "query": "개발시작하기",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 4,
+      "should_trigger": true,
+      "query": "이번에 사이드 프로젝트로 러닝 기록 앱을 만들어보려는데, 기획부터 같이 봐줄 수 있어?",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 5,
+      "should_trigger": true,
+      "query": "이 기능 스프린트로 쪼개줘. 2주 단위로 몇 개나 나올지 보고 싶어",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 6,
+      "should_trigger": true,
+      "query": "우리 팀 온보딩을 자동화하는 걸 만들려고 하는데 범위를 어디까지 잡아야 할지 감이 안 와. 같이 정리해보자",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 7,
+      "should_trigger": true,
+      "query": "요구사항이 아직 좀 두루뭉술한데, 질문 좀 던져줘. 답하면서 정리하고 싶어",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 8,
+      "should_trigger": true,
+      "query": "sprint 1에 들어갈 작업들을 스토리로 쪼개고 인수조건까지 뽑아줘",
+      "actual": false,
+      "attempts": 1,
+      "passed": false,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 9,
+      "should_trigger": true,
+      "query": "친구랑 둘이 쓸 가계부 서비스를 만들고 싶어. 근데 뭘 먼저 만들어야 할지 모르겠고 기능도 자꾸 늘어나기만 해",
+      "actual": true,
+      "attempts": 1,
+      "passed": true,
+      "raw": "TRIGGER"
+    },
+    {
+      "id": 10,
+      "should_trigger": true,
+      "query": "새 기능 하나 붙이려는데 바로 코딩하지 말고 개발 계획부터 세우자. 로드맵 형태로 보고 싶어",
+      "actual": false,
+      "attempts": 1,
+      "passed": false,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 11,
+      "should_trigger": false,
+      "query": "이 함수 좀 리팩터링 해줘. 200줄이 넘어가서 읽기가 힘들다",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 12,
+      "should_trigger": false,
+      "query": "README에 설치 방법 섹션 추가해줘. npm install 하고 env 파일 만드는 것까지",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 13,
+      "should_trigger": false,
+      "query": "스프린트 회고할 때 쓸 문서 템플릿 하나 만들어줘. 잘된 점 아쉬운 점 액션아이템 정도",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 14,
+      "should_trigger": false,
+      "query": "우리 레포에 PRD 파일이 어디 있는지 찾아줘. docs 밑에 있는 것 같은데",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 15,
+      "should_trigger": false,
+      "query": "docs/sprints.md 를 영어로 번역해줘. 해외 팀원한테 공유해야 해서",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 16,
+      "should_trigger": false,
+      "query": "테스트가 CI에서만 자꾸 깨지는데 원인 좀 찾아줘. 로컬에서는 잘 돌아가",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 17,
+      "should_trigger": false,
+      "query": "지라에 이슈 20개 한번에 올리는 스크립트 짜줘. csv 읽어서 API로 쏘는 걸로",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 18,
+      "should_trigger": false,
+      "query": "이 PRD 읽고 세 줄로 요약해줘. 회의 들어가기 전에 훑어보게",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 19,
+      "should_trigger": false,
+      "query": "제품 기획자 채용 면접에서 물어볼 질문 좀 뽑아줘. 주니어 대상이야",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    },
+    {
+      "id": 20,
+      "should_trigger": false,
+      "query": "스프린트 속도(velocity) 계산하는 공식이 뭐야? 스토리 포인트 기준으로",
+      "actual": false,
+      "attempts": 1,
+      "passed": true,
+      "raw": "NO_TRIGGER"
+    }
+  ]
+}
