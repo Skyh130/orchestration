@@ -22,6 +22,14 @@
     {"id": 17, "should_trigger": false, "query": "지라에 이슈 20개 한번에 올리는 스크립트 짜줘. csv 읽어서 API로 쏘는 걸로"},
     {"id": 18, "should_trigger": false, "query": "이 PRD 읽고 세 줄로 요약해줘. 회의 들어가기 전에 훑어보게"},
     {"id": 19, "should_trigger": false, "query": "제품 기획자 채용 면접에서 물어볼 질문 좀 뽑아줘. 주니어 대상이야"},
-    {"id": 20, "should_trigger": false, "query": "스프린트 속도(velocity) 계산하는 공식이 뭐야? 스토리 포인트 기준으로"}
+    {"id": 20, "should_trigger": false, "query": "스프린트 속도(velocity) 계산하는 공식이 뭐야? 스토리 포인트 기준으로"},
+
+    {"id": 21, "should_trigger": true,  "query": "이 기능 바로 코딩부터 들어가지 말고, 개발 계획을 먼저 세우자. 뭐부터 만들어야 할지 순서가 하나도 안 잡혀 있어"},
+    {"id": 22, "should_trigger": true,  "query": "이제 막 아이디어만 있는 단계인데, 로드맵부터 그려보고 싶어. 대표님 보고에 쓸 것도 아니고 그냥 우리끼리 방향 잡으려고"},
+    {"id": 23, "should_trigger": true,  "query": "이번에 새로 붙일 결제 기능, 요구사항을 스토리 단위로 나누고 인수조건까지 뽑아줘. 개발자한테 바로 넘길 수 있는 수준으로"},
+
+    {"id": 24, "should_trigger": false, "query": "지난 분기 개발 계획 문서 있잖아, 그거랑 지금 실적 비교해서 어디가 지연됐는지 표로 정리해줘"},
+    {"id": 25, "should_trigger": false, "query": "지난달에 같이 만들었던 로드맵 파일 어디 저장했는지 좀 찾아줘. docs 폴더 어딘가에 뒀던 것 같은데"},
+    {"id": 26, "should_trigger": false, "query": "이 스토리에 적힌 인수조건 문구가 좀 어색한데 표현만 다듬어줘. 내용은 손대지 말고"}
   ]
 }
